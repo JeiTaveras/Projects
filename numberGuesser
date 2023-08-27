@@ -1,0 +1,20 @@
+import time
+def sleep():
+    time.sleep(2)
+    
+print ("Lets play a fun game!")
+sleep()
+print("A number guessing game!!")
+sleep()
+print("Would you link to play? Y or N")
+answer = input()
+
+if answer == "y":
+    print ("Start game")
+    sleep()
+elif answer == "Y":
+    print ("Start game")
+    sleep()
+else:
+    print ("i guess not")
+    sleep()
