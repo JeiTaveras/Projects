@@ -1,0 +1,7 @@
+# My hello world app
+import time #Only to use time.sleep because it automatically closes the window after saying helloworld
+
+
+
+print ("Hello world")
+time.sleep(20)
